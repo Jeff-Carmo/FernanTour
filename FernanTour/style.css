@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalhobox{
+    position: fixed;
+    width: 100%;
+}
+
+
+.cabeçalhologo img{
+    display: block;
+    margin: 0 auto;
+    height: 33vh;
+    width: 100vw;
+    
+}
+
+/*Menu Horizontal */
+
+.menu-dropdown{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31,84,138);
+    border-bottom: 2px solid white;
+    font-size: 1.3rem;
+   
+}
+
+
+.menu-dropdown li{
+    display: inline-block;
+    
+}
+
+.menu-dropdown  li  a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    
+}
+
+.menu-dropdown li a:hover{
+    background-color: #2bc2f1;
+}
+
+.sub-menu{
+    position: absolute;
+    background-color: rgb(31,84,138);
+    display: none;
+    margin-top: 2px;
+}
+.sub-menu a{
+    border-left:  2px solid white ;
+    border-right:  2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.dropdown:hover .sub-menu{
+    display: block;
+}
+
+
+/* Main index.html */
+
+main{
+   padding-top: 240px;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+    
+    
+}
+
+.article1{
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 20px 40px;
+    text-indent: 50px;
+    text-align: justify;
+    
+}
+
+.article1 h1{
+    color: rgb(31,84,138);
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+.article1 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    line-height: 2.0;
+}
+
+.aside1{
+    margin-top: 70px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 4px solid rgb(31,84,138);
+    border-radius: 10px;
+    width: 400px;
+    background-color: #34C6F4;
+    
+}
+
+.aside1 img{
+    display: block;
+    margin: 25px auto;
+    width: 350px;
+    border: 3px solid rgb(31,84,138);
+}
+
+.footerbox{
+    background-color: rgb(63, 130, 197);
+    border-top: 3px solid white;
+
+}
+
+.footer1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer1 img{
+    width: 70px;
+    height: 70px;
+   
+}
+
+
+.footer2{
+    text-align: right;
+	font-size: 9pt;
+	height: 33px;
+    color: rgb(0, 0, 0);
+}
+
+.footer2 img{
+    width: 20px;
+    height: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.footer2 img:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+
+/* Sobre.html */
+
+.article2{
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 20px 40px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.article2 h1{
+    color: rgb(31,84,138);
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.article2 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.aside2{
+    margin-top: 70px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 4px solid rgb(31,84,138);
+    border-radius: 10px;
+    width: 400px;
+    background-color: #34C6F4;
+    
+}
+
+.aside2 img{
+    display: block;
+    margin: 65px auto;
+    width: 350px;
+    border: 3px solid rgb(31,84,138);
+}
+
+/* Passeios.html */
+
+.container2{
+    display: grid;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, #34C6F4 60%);
+    grid-template-columns: 1fr 1fr;
+    padding-top: 45px;
+    
+}
+
+.passeiostexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.passeiostexto h2{
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    background-color: rgb(31,84,138);
+    text-shadow: 0 0 5px #fff;
+    border-radius: 20px;
+    width: 460px;   
+}
+
+.passeiostexto p{
+    text-indent: 50px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.passeioimagem img{
+    display: block;
+    margin: 35px auto;
+    height: 350px;
+    width: 600px;
+    box-shadow: 0px 0px 0px 3px #000000;
+   
+}
+
+/* reserva.html */
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FEFE00;
+    padding: 10px;
+    margin: 25px 200px;
+    box-shadow: 0px 0px 0px 3px #000000;
+       
+}
+
+
+#email:hover{
+    background-color: #ffffff;
+}
+
+.contato figure{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.contato figure img{
+    width: 25px;
+    height: 25px;
+    padding: 5px 5px;
+}
+
+.contato figure img:hover{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.contato input{
+    width: 300px;
+}
+
+.Databox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Data{
+    width: 105px;
+}
+
+#Data2{
+    width: 105px;
+}
+
+#Data3{
+    width: 60px;
+}
+#Data4{
+    width: 60px;
+}
+
+#Data5{
+    width: 60px;
+}
+.Hospedagembox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cmsg{
+    display: block;
+    margin: 15px auto;
+    
+}
+
+#submit{
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+}
+
+#submit:hover{
+ background-color: rgb(16, 199, 16);
+ transition: 0.6s;
+ 
+}
+
+.reservaimagem img{
+    display: block;
+    margin: 25px auto;
+    height: 600px;
+    box-shadow: 0px 0px 0px 3px #000000;
+}
